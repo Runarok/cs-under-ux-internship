@@ -4,81 +4,82 @@ During my 8th semester, I joined an online internship officially titled as a **U
 
 The mismatch between the advertised UX theme and the actual content inspired the name of this repository: **`cs-under-ux`**. A playful way to acknowledge that, under the UX label, it was largely a CS crash course.
 
-This repository contains all internship materials, my personal lecture notes, module PDFs, and a compiled PDF book of all notes.
+This repository contains all official materials, my structured notes, module summaries, booklet versions, and a compiled book.
 
 ---
 
-## Repository Structure
+## Directory Breakdown
 
-```
+* **[`LICENSE`](LICENSE)**
+  The repository is licensed under the **MIT License**. Please refer to the `LICENSE` file for complete terms and permissions.
 
-cs-under-ux/
-│
-├── official-resources/         # Materials provided by the internship
-│   ├── Module 1/
-│   │   ├── Lesson 1 Notes.pdf
-│   │   ├── Lesson 1 Slides.pdf
-│   │   ├── Lesson 2 Notes.pdf
-│   │   ├── Lesson 2 Slides.pdf
-│   │   └── ...
-│   ├── Module 2/
-│   │   └── ...
-│   ├── Module 3/
-│   │   └── ...
-│   └── Module 4/
-│       └── ...
-│
-├── my-notes/                   # My personal notes and compiled resources
-│   ├── lectures/               # Markdown notes for each lecture
-│   │   ├── UX 01.md
-│   │   ├── UX 02.md
-│   │   ├── UX 03.md
-│   │   └── ...
-│   │   └── UX 32.md
-│   │
-│   ├── modules/                # Module PDFs summarizing grouped lectures
-│   │   ├── Front Sheet.pdf
-│   │   ├── Module 1(1-8).pdf
-│   │   ├── Module 2(9-16).pdf
-│   │   ├── Module 3(17-24).pdf
-│   │   ├── Module 4(25-32).pdf
-│   │   └── UX Design.pdf       # Compiled book of all modules
-│
-├── LICENSE                     # Repository license
-└── README.md                   # This file
+* **[`README.md`](README.md)**
+  Provides an overview of the repository, structure explanation, and documentation details.
 
-```
+* **[`official-resources/`](./official-resources)**
+  Contains all materials provided directly by the internship program.
+  Organized module-wise:
 
----
+  * **`Module 1/`** – Official lesson slides and notes
+  * **`Module 2/`** – Official lesson slides and notes
+  * **`Module 3/`** – Official lesson slides and notes
+  * **`Module 4/`** – Official lesson slides and notes
 
-## Folder Details
+  This folder represents the original curriculum as delivered.
 
-### 1. `official-resources/`
-Contains all materials provided by the internship program, including lesson slides and notes for every lesson across all modules. This folder represents the official curriculum.
+* **[`my-notes/`](./my-notes)**
+  Contains my personally structured notes and compiled study materials.
 
-### 2. `my-notes/`
-Contains my personal notes and compiled PDFs.  
+  * **[`lectures/`](./my-notes/lectures)**
+    Markdown lecture notes organized chronologically:
 
-- **`lectures/`** – Markdown notes for each lecture (`UX 01.md` → `UX 32.md`)  
-- **`modules/`** – PDFs summarizing each module and a compiled book:
-  - `Module X(Y-Z).pdf` → summarizes lectures Y to Z for that module  
-  - `UX Design.pdf` → complete PDF book combining all modules  
-  - `Front Sheet.pdf` → introductory sheet for the book
+    * `UX 01.md` → `UX 32.md`
+      Each file summarizes a single lecture in a clean, structured format.
+
+  * **[`modules/`](./my-notes/modules)**
+    Grouped lecture summaries in PDF format, including booklet versions:
+
+    * `Front Sheet.pdf` – Cover page for compiled book
+    * `Module 1(1-8).pdf` – Standard reading version
+    * `Module 1(1-8) - Booklet.pdf` – Print-friendly booklet layout
+    * `Module 2(9-16).pdf` – Standard reading version
+    * `Module 2(9-16) - Booklet.pdf` – Print-friendly booklet layout
+    * `Module 3(17-24).pdf` – Standard reading version
+    * `Module 3(17-24) - Booklet.pdf` – Print-friendly booklet layout
+    * `Module 4(25-32).pdf` – Standard reading version
+    * `Module 4(25-32) - Booklet.pdf` – Print-friendly booklet layout
+    * `UX Design.pdf` – Complete compiled book containing all modules
 
 ---
 
 ## Naming Conventions
 
-- **Lectures:** `UX 01.md`, `UX 02.md`, … `UX 32.md` for clear chronological order  
-- **Modules:** `Module X(Y-Z).pdf` to indicate the range of lectures included  
-- **Official Resources:** Named as provided by the internship  
-- **Folders:** lowercase with hyphens (`my-notes`, `official-resources`)  
-- **Compiled Book:** `UX Design.pdf`  
+* **Lectures**
+  `UX 01.md` → `UX 32.md`
+  Two-digit numbering ensures proper chronological order and clean sorting.
+
+* **Modules**
+  `Module X(Y-Z).pdf` → Standard reading format
+  `Module X(Y-Z) - Booklet.pdf` → Booklet layout for printing
+
+* **Compiled Book**
+  `UX Design.pdf` → Master document combining all modules
+
+* **Folders**
+  Lowercase naming with hyphen separation for clarity and consistency.
 
 ---
 
-## Notes
+## Purpose of This Repository
 
-- `official-resources/` contains only materials provided by the internship.  
-- `my-notes/` contains my personal Markdown notes and compiled PDFs.  
-- This structure ensures **easy navigation**, **clear separation** of official vs personal content, and a professional organization for reference and study.
+This repository is structured to ensure:
+
+* Clear separation between official and personal materials
+* Logical module-based grouping
+* Clean chronological documentation
+* Easy navigation and maintainability
+* Professional documentation standards
+
+It reflects both the internship experience and my approach to structured learning and organized documentation.
+
+---
